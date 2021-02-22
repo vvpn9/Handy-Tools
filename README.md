@@ -1,2 +1,2 @@
 # Handy Python
- Some handy codes and tools when using Python
+ Some handy codes and tools found when using Python
