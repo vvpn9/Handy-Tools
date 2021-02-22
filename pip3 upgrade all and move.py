@@ -1,4 +1,6 @@
 # 批量更新本地python三方库
+# 基于macos下
+
 import subprocess
 
 command = "pip list --outdated"
@@ -14,8 +16,9 @@ for x in updatelist[2:]:
 # pip3 check
 
 # 生成版本文件
+# cd /Users/账户名/Desktop
 # pip3 freeze -> requirements.txt
-# macos默认生成在/Users/账户名地址下
+# 桌面上即可获得txt格式的版本文件
 
 # 下载需要的安装包依赖包到本地目录
 # pip3 download -r requestments.txt -c requestments.txt -d pgk
