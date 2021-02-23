@@ -3,12 +3,12 @@
 
 import subprocess
 
-command = "pip list --outdated"
+command = "pip3 list --outdated"  # 使用pip3而非pip
 outdatelist = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                                shell=True).stdout.readlines()
 updatelist = [bytes.decode(x).split(" ")[0] for x in outdatelist]
 for x in updatelist[2:]:
-    tempcmd = "pip install -U " + x
+    tempcmd = "pip3 install -U " + x
     print(subprocess.Popen(tempcmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                            shell=True).stdout.readlines())
 
