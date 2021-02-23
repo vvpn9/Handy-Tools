@@ -1,5 +1,5 @@
 # 批量更新本地python三方库
-# 基于macos下
+# 基于macos
 
 import subprocess
 

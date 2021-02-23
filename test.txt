@@ -1,0 +1,11 @@
+total 48
+drwxr-xr-x@ 10 zw  staff   320 Feb 23 16:28 .
+drwxr-xr-x@ 22 zw  staff   704 Feb 23 14:57 ..
+drwxr-xr-x@ 21 zw  staff   672 Feb 23 09:39 .git
+-rw-r--r--@  1 zw  staff    66 Feb 22 14:44 .gitattributes
+-rw-r--r--@  1 zw  staff  1062 Feb 22 14:44 LICENSE
+-rw-r--r--@  1 zw  staff    67 Feb 22 15:48 README.md
+-rw-r--r--@  1 zw  staff  2630 Feb 23 16:28 execute shell commands with your python.py
+-rwxr-xr-x@  1 zw  staff   910 Feb 23 14:36 pip3 upgrade all and move.py
+-rw-r--r--@  1 zw  staff  1935 Feb 22 17:29 selfusepackages.txt
+-rw-r--r--@  1 zw  staff     0 Feb 23 16:28 test.txt
