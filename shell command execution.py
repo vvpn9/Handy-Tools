@@ -5,6 +5,7 @@
 # 如下方法缺点在于不能将输出结果作为变量
 
 import os
+import pathlib
 import shlex
 import subprocess
 
@@ -91,3 +92,4 @@ print(process.stdout)
 # # Fetch output
 # for line in ssh.stdout:
 #     print(line.strip())
+
