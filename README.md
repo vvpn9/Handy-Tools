@@ -1,3 +1,3 @@
-# Handy Python
+# Handy Tools
 
-Some handy codes and tools found when using Python
+Some handy thoughts and tools encountered when developing
