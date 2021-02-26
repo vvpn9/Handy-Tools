@@ -1,5 +1,5 @@
 # 批量更新本地python三方库
-# 基于macos
+# 基于macOS Big Sur Version 11.2.1
 
 import os
 import subprocess

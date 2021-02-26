@@ -1,5 +1,5 @@
 # python调用系统命令
-# 基于macos
+# 基于macOS Big Sur Version 11.2.1
 
 # os module
 # 如下方法缺点在于不能将输出结果作为变量
