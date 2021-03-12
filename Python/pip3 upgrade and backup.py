@@ -19,11 +19,16 @@ for x in updatelist[2:]:
     print(subprocess.Popen(tempcmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                            shell=True).stdout.readlines())
 
-# 在当前目录下生成备份文件
-os.system('pip3 freeze > requirements.txt')
 
 # 当前目录
 os.system('pwd')
+
+# 改变当前工作路径（可选）
+
+# 在当前目录下生成备份文件
+os.system('pip3 freeze > requirements.txt')
+
+# 如在目录下启用git版本控制，则可以通过颜色看到requirements下变化
 
 # 下载需要的安装包依赖包到本地目录
 # pip3 download -r requestments.txt -c requestments.txt -d pgk
