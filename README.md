@@ -1,3 +1,3 @@
 # Handy Tools
 
-Some handy thoughts and tools encountered when developing
+Some useful thoughts and handy tools encountered when coding
